@@ -1,0 +1,188 @@
+body {
+  background: #eceff1;
+  color: #263238;
+  font-family: "Kanit", sans-serif;
+  padding: 10px;
+}
+
+.title img {
+  display: block;
+  margin: 20px auto;
+  width: 150px;
+}
+
+.group-title, .player-card-title, .card .side h1 {
+  color: #01579b;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.col-sm-6 .row {
+  padding: 15px 0;
+}
+
+.badge-menu {
+  height: 100px;
+}
+
+.menu-badge {
+  cursor: pointer;
+  margin-left: 50px;
+  margin-right: 30px;
+  width: 90px;
+  -webkit-transition: width 0.5s ease-out;
+  transition: width 0.5s ease-out;
+}
+.menu-badge:hover {
+  width: 100px;
+}
+
+.menu-team-name {
+  display: none;
+  color: #607d8b;
+  font-size: 44px;
+}
+
+.team-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px #b0bec5;
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding: 15px;
+  width: 90%;
+}
+
+#rus-card,
+#svk-card,
+#wal-card {
+  display: none;
+}
+
+.badge-and-name {
+  background: #039be5;
+  border-radius: 5px;
+}
+.badge-and-name img {
+  padding: 15px;
+}
+
+.team-name {
+  color: #eceff1;
+  font-size: 44px;
+  text-transform: uppercase;
+}
+
+.best-finish {
+  color: #eceff1;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.group-name {
+  color: #039be5;
+  font-size: 20px;
+  padding: 25px 0px;
+}
+
+.group-letter {
+  border: 2px solid #039be5;
+  border-radius: 100%;
+  font-size: 20px;
+  padding: 0px 10px;
+}
+
+td {
+  text-align: left;
+}
+
+.match-date,
+.match-venue {
+  color: #607d8b;
+  font-size: 14px;
+}
+
+.opponent-badge img {
+  vertical-align: baseline;
+  width: 24px;
+}
+
+.opponent-name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.match-venue {
+  text-align: right;
+}
+
+.player-card-title {
+  margin-top: 60px;
+}
+
+.player-card-container {
+  cursor: pointer;
+  height: 350px;
+  margin: 10px auto 100px auto;
+  -webkit-perspective: 600;
+          perspective: 600;
+  position: relative;
+  width: 350px;
+}
+
+.card {
+  height: 100%;
+  margin-bottom: 15px;
+  position: absolute;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  width: 100%;
+}
+.card:hover {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.player-img {
+  background: white;
+  border: 1px solid #039be5;
+  padding: 2px;
+  width: 100%;
+}
+
+.card .side {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+.card .side h1 .card-badge {
+  vertical-align: baseline;
+  width: 35px;
+}
+
+.card .back {
+  background: white;
+  box-shadow: 0px 5px 15px #b0bec5;
+  padding: 10px;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.player-stats {
+  font-size: 16px;
+}
+.player-stats caption {
+  font-size: 24px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+.player-stats td:nth-child(2) {
+  color: #607d8b;
+  font-size: 16px;
+  text-align: right;
+}
