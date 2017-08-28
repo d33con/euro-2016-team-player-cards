@@ -1,3 +1,5 @@
-A Pen created at CodePen.io. You can find this one at https://codepen.io/d33con/pen/xOwQmN.
+A design for Euro 2016 group fixtures and player cards
+
+[View it here](https://codepen.io/d33con/full/xOwQmN/)
 
  
